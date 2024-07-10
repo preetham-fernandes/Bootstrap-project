@@ -1,20 +1,128 @@
-<h1>About Me</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem tellus, sagittis non odio nec, interdum
-  elementum lacus. Ut ac justo eget risus sollicitudin fringilla sed ut leo. Ut condimentum elit nec fermentum lobortis.
-  Quisque tincidunt quam nec tincidunt ullamcorper. Integer vitae pretium justo. In placerat volutpat pellentesque.
-  Etiam
-  gravida quam vitae odio pulvinar imperdiet. Vivamus venenatis gravida purus sit amet aliquet. Ut in nibh sed quam
-  laoreet lacinia. Cras cursus ut dui vitae posuere. Vivamus volutpat urna vitae odio fringilla placerat. Nulla vel
-  rhoncus sapien. Phasellus at interdum enim.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77ab59 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header .highlight, header .current a {
+            color: #77ab59;
+            font-weight: bold;
+        }
+        header .branding {
+            float: left;
+        }
+        header .branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+        }
+        .content h1, .content p {
+            margin-bottom: 20px;
+        }
+        .about-info {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about-info p {
+            margin: 10px 0;
+        }
+        .skills {
+            margin-top: 20px;
+        }
+        .skills ul {
+            list-style: square inside;
+        }
+        .skills ul li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="branding">
+            <h1>About Me</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\Preetham Fernandes\OneDrive\Desktop\GitDemo\Bootstrap-project\HTML Porfolio Project\index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li class="current"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    
+    <div class="container content">
+        <div class="about-info">
+            <p>Hi, I'm Preetham Fernandes, a passionate web developer based in Mumbai, India. I have a strong background in computer science and a keen interest in creating visually appealing and functional websites.</p>
+            <p>I specialize in front-end development and have experience working with various web technologies such as HTML, CSS, JavaScript, and React.</p>
+            <p>When I'm not coding, I enjoy watching movies, exploring new technologies, and spending time with my family and friends.</p>
+        </div>
+        
+        <div class="skills">
+            <h2>My Skills</h2>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Java, Python, C, C++</li>
+              <li>Postgres, SQL</li>
+              <li>Git, GitHub</li>
+              <li>Responsive Web Design</li>
+              <li>Wordpress</li>
+            </ul>
+        </div>
+    </div>
 
-<p>Curabitur elementum sagittis mollis. In porta nec quam ut semper. Nulla volutpat neque quis lacus mattis eleifend.
-  Phasellus et congue odio. Mauris tristique, nisl quis porttitor porttitor, tortor ante mattis ex, at dictum tortor
-  dolor
-  ut sem. Nullam nec libero non ex porta vulputate a eu sapien. In nec bibendum mauris. Fusce iaculis lectus vel magna
-  laoreet gravida.</p>
-
-<p>Donec euismod vestibulum arcu, a blandit metus mattis ultrices. Integer quis hendrerit justo. Maecenas sed tempor mi.
-  Fusce egestas urna leo. Mauris viverra sem sed libero egestas, volutpat aliquet magna porta. Quisque id diam sed ipsum
-  interdum sollicitudin id quis augue. Donec congue nisl nec massa ornare imperdiet quis quis odio. Etiam ut volutpat
-  nisl. Vestibulum hendrerit justo nibh, eget consequat magna fermentum finibus. Pellentesque et urna fringilla, rutrum
-  neque in, varius leo. Vestibulum efficitur id massa eget pellentesque.</p>
+    <footer>
+        <p>Preetham Fernandes &copy; 2024</p>
+    </footer>
+</body>
+</html>
